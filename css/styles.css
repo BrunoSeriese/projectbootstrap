@@ -1,0 +1,229 @@
+#title {
+  background-color: #ff4c68;
+
+}
+
+.doggo {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+}
+
+
+.container-fluid
+{
+padding: 3% 15%;
+}
+
+
+
+/* the phone image */
+
+
+
+
+.rotateimg180 {
+  transform: rotate(25deg);
+width: 60%;
+  position: absolute;
+right: 30%;
+}
+
+@media (max-width:900px) {
+
+  .rotateimg180
+  {
+    position: static;
+    transform: rotate(0deg);
+  }
+}
+
+
+/* Navigation Bar */
+
+.navbar-brand
+{
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar
+{
+  padding-bottom: 4.5rem;
+}
+
+.nav-item
+{
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.nav-link
+{
+  font-size: 1.2rem;
+  font-weight: 300;
+  font-family: Montserrat;
+}
+
+.download-button
+{
+  margin: 5% 3% 5% 0;
+}
+
+
+
+#features
+
+{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box
+{
+  text-align: center;
+}
+
+.fa-heart, .fa-bullseye, .fa-check-circle
+{
+  color: #ef8172;
+  padding-bottom: 1rem;
+
+
+}
+
+h3
+{
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+.myP
+{
+  color: #8f8f8f;
+}
+
+.fa-check-circle:hover {
+    color: red;
+}
+.fa-bullseye:hover {
+    color: red;
+}
+.fa-heart:hover {
+    color: red;
+}
+
+
+/*
+testimonial section */
+
+
+#testimonials
+{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+
+h2
+
+{
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+.testimonial-img
+{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+
+}
+
+
+#press
+{
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 3%;
+
+
+}
+
+.myimg
+{
+  width: 15%;
+  padding:0 2% 0 2%;
+}
+
+.carousel-item
+{
+    padding: 7% 15%;
+}
+
+.btn-outline-dark:hover
+{
+  background-color: blue;
+}
+
+
+
+#pricing
+{
+  padding: 100px;
+}
+.pricing-column
+{
+  padding: 3% 2%;
+  text-align: center;
+}
+.pricing2
+{
+  text-align: center;
+}
+
+
+.container-fluid
+{
+  padding: 3% 15% 7%;
+}
+
+
+#cta
+{
+  background-color: #ff4c68;
+  font-family: Montserrat;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+  padding-top: 5%;
+
+}
+
+.workplis
+{
+  font-size: 2.5rem;
+}
+#footer
+{
+  text-align: center;
+}
+
+.faico
+{
+ padding-left: 10px;
+ padding-right: 10px;
+ color: black;
+
+ padding-top: 100px;
+ padding-bottom: 100px;
+}
